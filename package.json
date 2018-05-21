@@ -1,0 +1,31 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "NY time scraper with mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JodeciLe84/mongoScraper.git"
+  },
+  "keywords": [
+    "mongo",
+    "scraper"
+  ],
+  "author": "Jodeci Le",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JodeciLe84/mongoScraper/issues"
+  },
+  "homepage": "https://github.com/JodeciLe84/mongoScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.2",
+    "request": "^2.87.0"
+  }
+}
